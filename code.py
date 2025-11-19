@@ -4,7 +4,7 @@ from datetime import datetime
 # ------------------------------
 # DATABASE CONNECTION
 # ------------------------------
-conn = sqlite3.connect("attendance.db")   # Works on any online compiler
+conn = sqlite3.connect("attendance.db")  
 cursor = conn.cursor()
 
 # ------------------------------
